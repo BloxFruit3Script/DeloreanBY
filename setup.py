@@ -8,7 +8,7 @@ setup(
     author='! rL⌀w',
     author_email='bytebvrd@gmail.com',
     license='MIT',
-    packages=['dolereanby'],
+    packages=['doloreanby'],
     install_requires=['urllib3',
                       'aiohttp',                     
                       ],
