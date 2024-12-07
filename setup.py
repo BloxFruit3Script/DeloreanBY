@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='tripleapi_wrapper',
+    name='tripleApi',
     version='0.2.3',    
     description='A Python package that bypasses advertisements to streamline user experiences with content.',
     url='https://github.com/BloxFruit3Script/TripleBY',
     author='! rL⌀w',
     author_email='bytebvrd@gmail.com',
     license='MIT',
-    packages=['tripleapi_wrapper'],
+    packages=['tripleApi'],
     install_requires=['urllib3',
                       'aiohttp',                     
                       ],
