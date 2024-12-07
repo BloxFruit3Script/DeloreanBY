@@ -5,8 +5,8 @@ A Python package that bypasses advertisements to streamline user experiences wit
 """
 __version__ = "0.2.3"
 __author__ = '! rL⌀w'
-__credits__ = 'Delorean Bypasser (Woozy)'
+__credits__ = 'triple Bypasser triple'
 
-from .core import DeloreanPremium, DeloreanFree
+from .core import DeloreanPremium, TripleFree
 
-__all__ = ["DeloreanPremium", "DeloreanFree"]
+__all__ = ["DeloreanPremium", "TripleFree"]
