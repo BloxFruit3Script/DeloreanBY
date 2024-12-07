@@ -16,10 +16,10 @@ class DeloreanPremium():
                     print(e)
                     return "API is currently offline or down. Please try again later."
                 
-class DeloreanFree():
+class TripleFree():
     async def get(self, *, url):
         async with aiohttp.ClientSession() as session:
-            async with session.get(f"https://delorean-free-api.woozym.workers.dev/api/linkvertise?url={quote(url)}") as response:
+            async with session.get(f"https://triple.kys.gay/api/addlink?url={quote(url)}") as response:
                 if response.status != 200:
                     return await response.text()
                 try:
