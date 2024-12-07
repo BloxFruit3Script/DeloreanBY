@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='deloreanby',
+    name='tripleapi_wrapper',
     version='0.2.3',    
     description='A Python package that bypasses advertisements to streamline user experiences with content.',
     url='https://github.com/KirbyHacks/DeloreanBY',
     author='! rL⌀w',
     author_email='bytebvrd@gmail.com',
     license='MIT',
-    packages=['deloreanby'],
+    packages=['tripleapi_wrapper'],
     install_requires=['urllib3',
                       'aiohttp',                     
                       ],
