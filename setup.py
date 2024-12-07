@@ -1,17 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='tripleApi',
-    version='0.2.3',    
-    description='A Python package that bypasses advertisements to streamline user experiences with content.',
-    url='https://github.com/BloxFruit3Script/TripleBY',
-    author='! rL⌀w',
-    author_email='bytebvrd@gmail.com',
-    license='MIT',
-    packages=['deloreanby'],
-    install_requires=['urllib3',
-                      'aiohttp',                     
-                      ],
+    name="tripleApi",
+    version="1.0.0",
+    description="A bypass API library",
+    author="Your Name",
+    packages=find_packages(),
+    install_requires=[],  # Add any dependencies
 
     classifiers=[
         'Development Status :: 1 - Planning',
