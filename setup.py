@@ -8,7 +8,7 @@ setup(
     author='! rL⌀w',
     author_email='bytebvrd@gmail.com',
     license='MIT',
-    packages=['doloreanby'],
+    packages=['tripleapi_wrapper'],
     install_requires=['urllib3',
                       'aiohttp',                     
                       ],
