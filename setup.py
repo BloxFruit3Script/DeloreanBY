@@ -6,7 +6,7 @@ setup(
     description="A bypass API library",
     author="Your Name",
     packages=find_packages(),
-    install_requires=[aiohttp, requests],  # Add any dependencies
+    install_requires=[aiohttp, requests, urllib3],  # Add any dependencies
 
     classifiers=[
         'Development Status :: 1 - Planning',
